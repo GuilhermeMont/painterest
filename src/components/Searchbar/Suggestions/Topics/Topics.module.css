@@ -1,0 +1,33 @@
+.TopicsContainer {
+    width: 180px;
+    height: 80px;
+    margin: 4px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 5%, rgba(0, 0, 10, 53.5) 44%)
+}
+
+.TopicsContainer:hover {
+ background-image: linear-gradient(rgba(0, 0, 0, 0) -50%, rgba(0, 0, 10, 53.5) 62%)
+}
+
+.TopicsContainer .Title {
+    display: block;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    top: 50px;
+    left: 10px;
+    z-index: 2;
+}
+
+.TopicsContainer img {
+    opacity: 0.8;
+    z-index: -1;
+}
+
+
+.TopicsContainer img:hover {
+    opacity: 0.5;
+}

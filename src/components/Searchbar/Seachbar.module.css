@@ -1,0 +1,51 @@
+.SearchbarContainer {
+    margin: 16px;
+    background-color: #efefef;
+    height: 40px;
+    min-width: 375px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border:none;
+    display: inline-block;
+    padding: 5px 8px;
+    display: -webkit-box;
+}
+
+.SearchbarContainer .ContainerDisplay {
+    display: -webkit-inline-box;
+}
+
+.SearchbarContainer img {
+    height: 20px;
+    width: 20px;
+    margin-right: 16px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+
+.Searchbar {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #282c34;
+    height: 30px;
+    width: 90%;
+    display: block;
+}
+
+.Suggestions {
+    display: none;
+}
+
+.Searchbar:focus {
+    outline: none;
+}
+
+.Searchbar:focus .Suggestions {
+    display: block;
+}
+
+
+
