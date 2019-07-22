@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f2b8187-dd63-4786-b748-e1fe0e44bdf2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Searchbar/Suggestions/Match/Match.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Searchbar/Suggestions/Match/PeopleRecommendation/PeopleRecommendation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Searchbar/Suggestions/Match/PeopleRecommendation/PeopleRecommendation.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Searchbar/Searchbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Searchbar/Searchbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Searchbar/Suggestions/Suggestions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Searchbar/Suggestions/Suggestions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Searchbar/Suggestions/Match/Match.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Searchbar/Suggestions/Match/Match.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,8 +50,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Searchbar/Suggestions/Match/Match.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="253">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Searchbar/Suggestions/Match/PeopleRecommendation/PeopleRecommendation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Searchbar/Suggestions/Match/PeopleRecommendation/PeopleRecommendation.module.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -100,8 +124,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -128,8 +152,12 @@
         <option value="$PROJECT_DIR$/src/components/Searchbar/Suggestions/RecentSearches/RecentSearches.js" />
         <option value="$PROJECT_DIR$/src/components/Searchbar/Suggestions/RecentSearches/RecentSearches.module.css" />
         <option value="$PROJECT_DIR$/src/components/Searchbar/Searchbar.js" />
-        <option value="$PROJECT_DIR$/src/components/Searchbar/Suggestions/Match/Match.js" />
         <option value="$PROJECT_DIR$/src/components/Searchbar/Suggestions/Suggestions.js" />
+        <option value="$PROJECT_DIR$/src/components/Searchbar/Suggestions/Match/PeopleRecomendation/PeopleRecomendation.js" />
+        <option value="$PROJECT_DIR$/src/components/Searchbar/Suggestions/Match/PeopleRecommendation/PeopleRecomendation.js" />
+        <option value="$PROJECT_DIR$/src/components/Searchbar/Suggestions/Match/PeopleRecommendation/PeopleRecommendation.module.css" />
+        <option value="$PROJECT_DIR$/src/components/Searchbar/Suggestions/Match/Match.js" />
+        <option value="$PROJECT_DIR$/src/components/Searchbar/Suggestions/Match/PeopleRecommendation/PeopleRecommendation.js" />
       </list>
     </option>
   </component>
@@ -189,6 +217,25 @@
               <item name="Searchbar" type="462c0819:PsiDirectoryNode" />
               <item name="Suggestions" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="painterest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="painterest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Searchbar" type="462c0819:PsiDirectoryNode" />
+              <item name="Suggestions" type="462c0819:PsiDirectoryNode" />
+              <item name="Match" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="painterest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="painterest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Searchbar" type="462c0819:PsiDirectoryNode" />
+              <item name="Suggestions" type="462c0819:PsiDirectoryNode" />
+              <item name="Match" type="462c0819:PsiDirectoryNode" />
+              <item name="PeopleRecommendation" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -243,7 +290,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563714973493</updated>
-      <workItem from="1563714976579" duration="12757000" />
+      <workItem from="1563714976579" duration="14337000" />
     </task>
     <task id="LOCAL-00001" summary="Search bar layout">
       <created>1563726912416</created>
@@ -259,11 +306,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563763775235</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Search Match component">
+      <created>1563766210093</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563766210093</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12757000" />
+    <option name="totallyTimeSpent" value="14337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="736" extended-state="0" />
@@ -296,7 +350,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Search bar layout" />
     <MESSAGE value="Search bar - Recent searches" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search bar - Recent searches" />
+    <MESSAGE value="Search Match component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search Match component" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/index.css">
@@ -386,10 +441,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Searchbar/Suggestions/Match/PeopleRecommendation/PeopleRecommendation.module.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Searchbar/Suggestions/Match/PeopleRecommendation/PeopleRecommendation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Searchbar/Suggestions/Match/Match.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="253">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

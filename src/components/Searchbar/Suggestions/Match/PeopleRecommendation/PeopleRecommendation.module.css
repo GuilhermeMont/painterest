@@ -1,0 +1,29 @@
+.People {
+    display: -webkit-inline-box;
+    margin:8px;
+}
+
+.People img {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    margin-top: 2px;
+    border-radius: 50%;
+}
+
+.People label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #282c34;
+}
+
+.People span {
+    font-size: 11px;
+    font-weight: lighter;
+    color: #848484;
+}
+
+.People .Description {
+    display: grid;
+}
+
