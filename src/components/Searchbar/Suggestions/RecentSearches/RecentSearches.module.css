@@ -10,3 +10,7 @@
     margin: 4px;
     white-space: nowrap;
 }
+
+.RecentSearches:hover{
+    background-color: #c2c2c2;
+}
