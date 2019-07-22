@@ -1,9 +1,9 @@
 import React from 'react'
 import customProfilePicture from '../../../../../assets/img01.jpg'
-import classes from './PeopleRecommendation.module.css'
+import classes from './Recommendation.module.css'
 
 
-const peopleRecommendation = (props) => {
+const recommendation = (props) => {
     return (
         <div className={classes.People}>
             <img alt={'A very cool profile'} src={customProfilePicture}/>
@@ -15,4 +15,4 @@ const peopleRecommendation = (props) => {
     )
 };
 
-export default peopleRecommendation
+export default recommendation

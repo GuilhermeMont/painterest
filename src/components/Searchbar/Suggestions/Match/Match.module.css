@@ -1,0 +1,19 @@
+.Match {
+
+}
+
+.Match .Title {
+    font-size: 14px;
+    color: #c2c2c2;
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 8px;
+
+}
+
+.Match .description {
+    font-size: 14px;
+    font-weight: bold;
+    color: #282c34;
+    margin-top: 8px;
+}
