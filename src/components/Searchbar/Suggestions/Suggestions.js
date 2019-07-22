@@ -2,10 +2,22 @@ import React,{Component} from 'react'
 import classes from  './Suggestions.module.css'
 import Topics from './Topics/Topics'
 import RecentSearches from './RecentSearches/RecentSearches'
+import Match from  './Match/Match'
 
 class Suggestions extends Component{
 
+    state = {
+      searchResults: ''
+    };
+
+    componentDidUpdate(prevProps){
+        if (this.state.searchResults !== this.props.search){
+            this.setState({searchResults: this.props.search});
+        }
+    };
+
     render() {
+
         let req = require.context("../../../../src/assets", false, /.*\.jpg$/);
 
         const topics = req.keys().map(key => {
@@ -18,8 +30,8 @@ class Suggestions extends Component{
             return <RecentSearches key={tag} text={tag}/>
         });
 
-        return (
-            <div className={classes.SuggestionsContainer}>
+        let suggestions = (
+            <div>
                 <span className={classes.SuggestionsTitle}>Recent Searches</span>
                 {recentSearches}
                 <span className={classes.SuggestionsTitle}>Some ideas for you</span>
@@ -31,6 +43,18 @@ class Suggestions extends Component{
                         {topics.slice(4,6)}
                     </div>
                 </div>
+            </div>
+        );
+
+        if (this.state.searchResults){
+            suggestions = (
+                <Match search={this.props.search}/>
+            )
+        }
+
+        return (
+            <div className={classes.SuggestionsContainer}>
+                {suggestions}
             </div>
         );
     }

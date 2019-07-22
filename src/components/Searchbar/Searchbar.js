@@ -6,7 +6,8 @@ import Suggestions from './Suggestions/Suggestions'
 class searchbar extends Component {
 
     state = {
-      showSuggestions: false
+      showSuggestions: false,
+      search: ''
     };
 
 
@@ -15,20 +16,23 @@ class searchbar extends Component {
         this.setState({showSuggestions: !s})
     };
 
+    changeHandler = (event) => {
+        this.setState({search: event.target.value})
+    };
+
     render() {
         let suggestions = null;
+
         if (this.state.showSuggestions) {
             suggestions =(
-                <div>
-                    <Suggestions/>
-                </div>
+                <Suggestions search={this.state.search}/>
             )
         }
         return (
             <div>
                 <div className={classes.SearchbarContainer} onClick={this.showSuggestionsHandler}>
                     <img src={icon} alt={'search icon'}/>
-                    <input className={classes.Searchbar}  placeholder='Search' type='name' name='search'/>
+                    <input className={classes.Searchbar} value={this.state.value} onChange={this.changeHandler}  placeholder='Search' type='name' name='search'/>
                 </div>
                 {suggestions}
             </div>
