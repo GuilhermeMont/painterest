@@ -1,0 +1,12 @@
+.RecentSearches{
+    background-color: #e7e7e7;
+    display: -webkit-inline-box;
+    color: #333;
+    font-size: 14px;
+    padding: 8px;
+    font-weight: bold;
+    height: 15px;
+    border-radius: 8px;
+    margin: 4px;
+    white-space: nowrap;
+}

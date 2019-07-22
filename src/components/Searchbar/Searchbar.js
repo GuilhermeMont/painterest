@@ -11,7 +11,6 @@ class searchbar extends Component {
 
 
     showSuggestionsHandler = () => {
-        console.log('cool');
         const s = this.state.showSuggestions;
         this.setState({showSuggestions: !s})
     };
