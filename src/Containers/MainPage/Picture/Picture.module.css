@@ -1,0 +1,26 @@
+.PictureContainer {
+    width: 163px;
+    height: 320px;
+    min-width: 150px;
+    max-width: 230px;
+    min-height: 180px;
+    max-height: 350px;
+    margin: 4px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 5%, rgba(0, 0, 10, 53.5) 44%)
+}
+
+.PictureContainer:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0) -50%, rgba(0, 0, 10, 53.5) 62%)
+}
+
+.PictureContainer img {
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.PictureContainer img:hover {
+    opacity: 0.5;
+}

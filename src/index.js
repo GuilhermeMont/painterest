@@ -3,6 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import axios from 'axios'
+
+axios.defaults.headers.common['Authentication'] = 'Some Auth Here!!';
+axios.defaults.headers.post['type'] = 'application/json';
+
+axios.defaults.baseURL = "https://api.unsplash.com/";
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
