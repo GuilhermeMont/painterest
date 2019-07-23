@@ -2,7 +2,7 @@
     margin: 16px;
     background-color: #efefef;
     height: 40px;
-    min-width: 375px;
+    min-width: 315px;
     max-width: 537px;
     border-radius: 8px;
     box-sizing: border-box;
@@ -10,6 +10,19 @@
     display: inline-block;
     padding: 5px 8px;
     display: -webkit-box;
+}
+
+.SearchbarContainer .MobileCancel {
+    position: absolute;
+    right: 35px;
+    top: 28px;
+    background-color: transparent;
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 0px;
+    color: #848484;
+    outline: none;
 }
 
 .SearchbarContainer .ContainerDisplay {
