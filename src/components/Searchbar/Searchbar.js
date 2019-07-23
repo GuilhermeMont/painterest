@@ -22,18 +22,18 @@ class searchbar extends Component {
 
     render() {
         let suggestions = null;
+        let cancelButton = null;
 
         if (this.state.showSuggestions) {
-            suggestions =(
-                <Suggestions search={this.state.search}/>
-            )
+            suggestions =   <Suggestions search={this.state.search}/>;
+            cancelButton =  <button className={classes.MobileCancel} onClick={this.showSuggestionsHandler}>Cancel</button>;
         }
         return (
             <div style={{display:'inline-block'}}>
                 <div className={classes.SearchbarContainer} onClick={this.showSuggestionsHandler}>
                     <img src={icon} alt={'search icon'}/>
                     <input className={classes.Searchbar} value={this.state.value} onChange={this.changeHandler}  placeholder='Search' type='name' name='search'/>
-                    <button className={classes.MobileCancel} onClick={this.showSuggestionsHandler}>Cancel</button>
+                    {cancelButton}
                 </div>
                 {suggestions}
             </div>
