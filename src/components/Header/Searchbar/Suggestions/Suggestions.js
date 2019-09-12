@@ -1,8 +1,8 @@
 import React,{Component} from 'react'
-import classes from  './Suggestions.module.css'
+import classes from './Suggestions.module.css'
 import Topics from './Topics/Topics'
 import RecentSearches from './RecentSearches/RecentSearches'
-import Match from  './Match/Match'
+import Match from './Match/Match'
 
 class Suggestions extends Component{
 
@@ -18,7 +18,7 @@ class Suggestions extends Component{
 
     render() {
 
-        let req = require.context("../../../../src/assets", false, /.*\.jpg$/);
+        let req = require.context("../../../../../src/assets", false, /.*\.jpg$/);
 
         const topics = req.keys().map(key => {
             return <Topics key={req(key)} src={req(key)} title={'Cool Pics'}/>

@@ -1,5 +1,5 @@
 import React from 'react'
-import customProfilePicture from '../../../../../assets/img01.jpg'
+import customProfilePicture from '../../../../../../assets/img01.jpg'
 import classes from './Recommendation.module.css'
 
 

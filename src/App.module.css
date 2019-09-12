@@ -1,0 +1,14 @@
+.Header {
+  width: 100%;
+  padding: 8px;
+  height: 80px;
+  color: #282c34;
+  box-sizing: border-box;
+  display: -webkit-inline-box;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.Logo {
+  height: 70px;
+  margin-left: 10px;
+}
